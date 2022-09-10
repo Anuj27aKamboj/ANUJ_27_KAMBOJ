@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Raleway:wght@500&display=swap');
+
+
+:root {
+    --primary-color: #06b6d4;
+    --off-white: #cffafe;
+    --gray: #d4d4d4;
+    --light: #e0f2fe;
+    --dark:#0f172a;
+    --bg-b1: #334155;
+    --slate-800: #1e293b;
+    --primary-font: 'Oswald', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;  
+}
+
+
+body{
+    margin: 0 0;
+    padding: 0 0;
+    /* background-color: black; */
+    background-color: var(--dark);
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5rem;
+    min-height: 100vh;
+
+    /* background-color: pink; */
+}
+
+.main-head{
+    margin: 0 auto;
+    padding: 1rem;
+
+    /* background-color: purple; */
+}
+
+.user{
+    font-family: var(--primary-font);
+    font-size: 5rem; /* 20 % */
+    /* color: var(--dark); */
+    color: var(--off-white);
+    text-align: center;
+}
+
+.user-info{
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    text-align: center;
+    color: #cffafe;
+}
+
+.content-head{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    /* background-color: orange; */
+}
+
+.bitmoji-img{
+    width: 30%;
+    max-height: 50vh;
+    display: flex;
+    justify-content: center;
+
+    /* background-color: gray; */
+}
+
+.bit-img{
+    width: 30%;
+    height: 100%;
+}
+
+.content{
+    text-align: right;
+    padding: 2rem;
+    position: relative;
+
+    /* background-color: green; */
+}
+
+.text-intro {
+    font-size: 1.75rem;
+    color: whitesmoke;
+    font-weight: 500;
+    font-family: var(--primary-font);
+}
+
+.text-right {
+    font-size: 1.25rem;
+    color: whitesmoke;
+    padding: 1.25rem 2rem;
+    position: absolute;
+    right: 0px;
+
+    /* background-color: purple; */
+}
+
+.content img{
+    width: 25%;
+    height: 50%;
+}
+
+
