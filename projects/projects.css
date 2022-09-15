@@ -66,6 +66,7 @@
 .card-item-date{
     text-align: right;
     padding: 0.2rem ;
+    font-size: 0.6rem;
 }
 
 .card-item-header{

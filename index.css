@@ -44,7 +44,7 @@
 
 .bitmoji-img{
     width: 25%;
-    min-height: 40vh;
+    max-height: 40vh;
     display: flex;
     justify-content: center;
 
@@ -61,7 +61,7 @@
     transform: scale(1.4);
 }
 
-.content{
+.content-body{
     text-align: right;
     padding: 2rem;
     position: relative;
@@ -75,14 +75,11 @@
                 color 0.4s ease-in-out;
 }
 
-.content:hover{
+.content-body:hover{
     background-color:var(--snap-yellow);
     color: var(--slate-800);
 }
 
-.content:hover .heading-highlight{
-    color: var();
-}
 
 .text-intro {
     font-size: 1.75rem;
@@ -103,7 +100,7 @@
     /* background-color: purple; */
 }
 
-.content img{
+.content-body img{
     position: relative;
     width: 25%;
     height: 50%;
