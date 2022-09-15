@@ -174,6 +174,7 @@
     /* background-color: cornflowerblue; */
     position: relative;
     justify-content: center;
+    width: 100%;
 }
 
 .skill-container{
@@ -182,7 +183,7 @@
     flex-direction: row;
     width: 100%;
     height: 10vh;
-    margin: 0.6rem;
+    margin: 0.6rem auto;
     padding: 0.6rem;
 }
 
@@ -213,7 +214,7 @@
     margin: 2%;
     background-color: var(--slate-900);
     color: var(--sky-100);
-    padding: 0.5%;
+    padding: 1%;
     border: 2px solid var(--snap-yellow);
     border-radius: 20%;
     text-decoration: none;
@@ -230,13 +231,26 @@
 .link-project:hover, .link-blog:hover{
     transform: scale(1.4);
     box-shadow: 2px 2px 4px var(--slate-700);
+    background-color: var(--slate-800);
 }
 
 
 @media screen and (min-width: 200px) and (max-width:767px) {
+    .user{
+        font-size: 1.5rem;
+    }
+
+    .user-info{
+        font-size: 1.15rem;
+    }
+
     .content-head{
         flex-direction: column;
         justify-content: center
+    }
+
+    .content-body{
+        text-align: center;
     }
 
     .bitmoji-img{
@@ -249,13 +263,45 @@
         height: 100%;
     }
 
-    .text-right{
-        margin: 2rem;
+    .container-box-1, .container-box-2, .container-box-3{
+        margin: 2rem auto;
+        width: 75%;
+    }
+
+    .link-project, .link-blog{
+        font-size: 0.6rem;
+    }
+
+    .skill-logo{
+        width: 100%;
+        height: 100%;
     }
 }
 
 
 @media screen and (min-width:768px) and (max-width:992px)  {
+    .content-head{
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .content-body{
+        text-align: center;
+    }
+
+    .bitmoji-img{
+        margin: auto;
+        min-height: 20vh;
+    }
+
+    .bit-img{
+        width: 75%;
+        height: 75%;
+    }
+
+    .link-project, .link-blog{
+        width: 30%;
+    }
 
 }
 
