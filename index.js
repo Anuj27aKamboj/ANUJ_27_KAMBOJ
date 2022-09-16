@@ -1,9 +1,10 @@
-const resDownloadBtn = document.querySelector(".resume-donload-btn");
-const logoProfileBtn = document.querySelector(".logo-profile");
+// const list = document.querySelectorAll('.list');
 
-function displayResume(){
-    resDownloadBtn.style.display = "block";
-}
+// function activeLink(){
+//     list.forEach((item) =>
+//     item.classList.remove('active'));
+//     this.classList.add('active');
+// }
 
-logoProfileBtn.addEventListener("click", displayResume);
-
+// list.forEach((item) =>
+// item.addEventListener('click', activeLink));
