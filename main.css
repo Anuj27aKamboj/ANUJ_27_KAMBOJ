@@ -128,3 +128,16 @@ footer img:hover {
 }
 
 
+@media screen and (min-width: 200px) and (max-width:767px){
+    .nav-brand{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .nav-brand{
+        width: 40%;
+    }
+
+}
+
