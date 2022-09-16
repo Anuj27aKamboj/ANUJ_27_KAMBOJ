@@ -6,71 +6,169 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Anuj-Kamboj</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="main.css" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/favicon_io/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicon_io/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicon_io/favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png"/>
     <link rel="manifest" href="/favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <nav>
       <div class="navbar">
-        <div class="logo-img">
-          <img src="/media/pp1.png" alt="" class="logo" />
+          <div class="logo-img">
+            <img src="/media/profile-pic.png" alt="" class="logo-profile" />
+            <!-- <div class="download-btn">
+              <a class="resume-download-btn" style="display: none;" href="/media/Anuj-Kamboj.pdf" download="Anuj-Kamboj Resume">
+                Download Resume <i class="fa fa-download"></i>
+              </a>
+          </div> -->
+          </div>
+          <div class="nav-brand">
+              <ul>
+                  <li class="list active">
+                      <a href="/">
+                          <span class="nav-icon"><img src="/logo/home-icon.svg" alt=""></span>
+                          <span class="nav-text">Home</span>
+                      </a>
+                  </li>
+
+                  <li class="list ">
+                      <a href="/projects/projects.html">
+                          <span class="nav-icon"><img src="/logo/project-icon.svg" alt=""></span>
+                          <span class="nav-text">Projects</span>
+                      </a>
+                  </li>
+
+                  <li class="list ">
+                      <a href="/blogs/blogs.html">
+                          <span class="nav-icon"><img src="/logo/blog-icon.svg" alt=""></span>
+                          <span class="nav-text">Blogs</span>
+                      </a>
+                  </li>
+              </ul>
+
+          </div>
         </div>
-        <div class="nav-brand"></div>
-      </div>
-    </nav>
+  </nav>
 
     <main>
       <div class="container-main">
         <div class="main-head">
-          <div class="user">ANUJ KAMBOJ</div>
+          <div class="user"><h1>ANUJ KAMBOJ</h1></div>
           <div class="user-info">Full-Stack Web Enthusiast</div>
         </div>
 
         <div class="content-head">
           <div class="bitmoji-img">
-            <img
-              src="/media/bitmoji-1.png"
-              alt="user-bitmoji-img"
-              class="bit-img"
-            />
+            <img class="bit-img" src="/media/bitmoji-1.png" alt="user-bitmoji-img" />
           </div>
 
-          <div class="content">
+          <div class="content-body">
             <div class="content-text">
-                <span class="text-intro">Hello 👋, I am a Web Devel<span class="heading-inverted">(ove)</span>oper !!</span> <br/>
-                <div class="text-right">I focus on building robust and scalable web applications using HTML, modern CSS and JavaScript.</div>
+                <span class="text-intro">Hello 👋, I am a Web Develo<span class="heading-highlight">(ve)</span>per !!</span> <br/>
+                <div class="text-right">I focus on building robust and scalable web applications using HTML, modern CSS and JavaScript. I came in with near zero programming knowledge and halfway in, I’m quite confident of what I can achieve.</div>
             </div>
-            <!-- <div class="content-img">
-                <img src="/media/carbon.png" alt="carbon-img" />
-            </div> -->
           </div>
-          
+        </div>
+      </div>
+      
+      <div class="container-section">
+        <div class="container-box-1">
+          <div class="container-box-header">Technologies</div>
+          <div class="container-box-text">I am familiar with following <span class="heading-highlight">Technologies</span> </div>
+          <div class="skill-container-box">
+            <ol class="skill-container">
+              <li class="list-non-bullet">
+                <img class="skill-logo" src="/logo/html-icon.svg" alt="HTML" />
+              </li>
+              <li class="list-non-bullet">
+                <img class="skill-logo" src="/logo/css-logo.svg" alt="css" />
+              </li>
+              <li class="list-non-bullet">
+                <img class="skill-logo" src="/logo/javascript-icon.svg" alt="javascript" />
+              </li>
+              <li class="list-non-bullet">
+                <img class="skill-logo" src="/logo/java-icon.svg" alt="Java" />
+              </li>
+              <li class="list-non-bullet">
+                <img class="skill-logo" src="/logo/tailwindcss-icon.svg" alt="tailwind"/>
+              </li>
+              <li class="list-non-bullet">
+                <img class="skill-logo" src="/logo/git-icon.svg" alt="git" />
+              </li>
+            </ol>
+          </div>
         </div>
 
-      </div>
+        <div class="container-box-2">
+          <div class="container-box-header">My Projects</div>
+          <div class="container-box-img"><img class="project-img" src="/media/project.png" alt="project-img"></div>
+          <div class="container-box-text">I like to showcase my work and thus, you can see my<span
+            class="heading-highlight"> Projects </span>hosted online.
+          </div>
 
-      <div class="container-section"></div>
+          <button class="link-project" ><a href="/projects/projects.html">See Projects</a></button>
+        </div>
+
+        <div class="container-box-3">
+          <div class="container-box-header">My Blogs</div>
+          <div class="container-box-img"><img class="blog-img" src="/media/blog.png" alt="blog-img"></div>
+          <div class="container-box-text">My blogs are a document of my journey of learning. Click below to
+            reach<span class="heading-highlight"> Blogs</span>.
+          </div>
+
+          <button class="link-blog"><a href="/blogs/blogs.html">See Blogs</a></button>
+        </div>
+      </div>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer-header">Connect Socially Here</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            class="link-social"
+            href="https://github.com/Anuj27aKamboj"
+            target="_blank"
+          >
+            <img src="/logo/github-icon.svg" alt="Github" />
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link-social"
+            href="https://www.linkedin.com/in/anuj-kamboj"
+            target="_blank"
+          >
+            <img
+              src="/logo/linkedin-icon.svg"
+              alt="Linkedin"
+            />
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link-social"
+            href="https://twitter.com/Anuj_27_K"
+            target="_blank"
+          >
+            <img src="/logo/twitter-icon.svg" alt="Twitter" />
+          </a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link-social"
+            href="mailto:anujkamboj2000@gmail.com"
+            target="_blank"
+          >
+            <img src="/logo/mail-icon.svg" alt="Gmail" />
+          </a>
+        </li>
+      </ul>
+      <div class="copyright-container">Copyright ©️ 2022 | Anuj Kamboj</div>
+    </footer>
 
     <script src="index.js" type="text/javascript"></script>
   </body>
