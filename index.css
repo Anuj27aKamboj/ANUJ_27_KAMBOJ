@@ -88,7 +88,7 @@
     font-family: var(--font-oswald);
 }
 
-.text-right {
+.text-info{
     font-size: 1.15rem;
     /* color: var(--slate-800); */
     padding: 1.5rem 2rem;
@@ -96,6 +96,7 @@
     right: 0px;
     font-family: var(--font-satisfy);
     font-weight: 500;
+    text-align: justify;
 
     /* background-color: purple; */
 }
